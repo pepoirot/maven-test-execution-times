@@ -33,3 +33,12 @@ else:
 
 	print "\nRun: {0} tests in {1}mins {2}s (file: {3})".format(len(tt), int(total / 60), int(total % 60), logfile)
 	
+#	n = int(math.ceil(total / (int(raw_input('\nMax desired runtime in mins? ')) * 60)))
+#	buckets = [[] for b in range(n)]
+#	for t in range(len(tt)):
+#		buckets[t % n].append(tt.pop())
+#	for b, bucket in enumerate(buckets):
+#		print "\n* Bucket", b + 1
+#		for t in bucket:
+#			print t[0]
+	
